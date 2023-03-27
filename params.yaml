@@ -6,6 +6,9 @@ base:
 data_source:
   s3_source: data_given/winequality.csv
 
+load_data:
+  raw_dataset_csv: data/raw/winequality.csv
+
 split_data:
   train_path: data/processes/train_winequality.csv
   test_path: data/processes/test_winequality.csv
