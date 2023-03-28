@@ -1,5 +1,11 @@
+## local package install
+-e .
+
+## third party package
 dvc
 dvc[gdrive]
 scikit-learn
 pytest
 tox
+flake8
+matplotlib
